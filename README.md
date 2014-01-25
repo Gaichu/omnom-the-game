@@ -11,8 +11,10 @@ Have fun playing and make sure to eat enough cookies.
 A ton of cookies were harmed in the making of this game.
 
 # todo
-* Enemies
-* player boost
+* Enemy collision (bad cukis)
+* Ability for player to shoot bad cukis
+* Game Over 
+* Adjust position of texts
 * background image 
 
 you just do with code what you want to
