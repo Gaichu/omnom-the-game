@@ -7,8 +7,12 @@ local badCukInf,badCukImg = { 275, 0, 0, .05 }, lg.newImage("assets/bad-cuki.png
 local vx, vy, rot, scale = unpack(badCukInf) 
 
 local badCukiRightLeft,badCukiTopBottom = {},{} -- hold teh cukis
-local createTimer, cTimerSpeed, cTimerStart, cTimerStart2 = 20,1, { 0, 0 }, { 0,0,0,0 }
+local createTimer, cTimerSpeed, cTimerStart, cTimerStart2 = 20,1, { }, { }
 local atkStr, atkStr2 = "ME EAT YOU!!", "AAAH"
+for i=1,4 do
+  cTimerStart[#cTimerStart+1] = 0 
+  cTimerStart2[#cTimerStart2+1] = 0 
+end
 
 function badCuki_setPos(x,y)
   table.insert(badCukiRightLeft, { x=x, y=y })

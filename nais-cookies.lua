@@ -10,7 +10,7 @@ local cookiInfo = { 250, 0, .05, 0 }
 local vx, vy, scale, rot = unpack(cookiInfo);
 
 local pcooki = {}
-local pTimer, pTimerSpeed, pTimerStart = 12,1,{ 0, 0 }
+local pTimer, pTimerSpeed, pTimerStart = 12,1,{}
 for i=1,4 do pTimerStart[i] = 0; end -- make 4 starting points for timers 
 
 local eTimer, eTimerSpeed, eTimerStart = 1,1,0;
