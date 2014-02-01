@@ -25,7 +25,7 @@ function cuki_gen(dt) -- gen cukis
     pTimerStart[i] = pTimerStart[i] + pTimerSpeed*dt;
     
     if pTimerStart[i] >= pTimer/i then -- generate cooki  
-      pcooki_set(lg.getWidth(), (lg.getHeight()*i)/4 - 35)
+      pcooki_set(lg.getWidth(), math.random(0,(lg.getHeight()-alistair.h*1.5)))
       pTimerStart[i] = 0
     end -- start counting up again separately  
   end

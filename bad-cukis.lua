@@ -24,7 +24,7 @@ function badCuki_gen(dt)
     cTimerStart[i] = cTimerStart[i] + cTimerSpeed*dt
     
     if cTimerStart[i] >= createTimer/i then 
-      badCuki_setPos(lg.getWidth(), (lg.getHeight()-50)*i/2.5)
+      badCuki_setPos(lg.getWidth(), (math.random(lg.getHeight()-alistair.h*1.11))/i)
       cTimerStart[i] = 0
     end
   end
@@ -33,7 +33,7 @@ function badCuki_gen(dt)
     cTimerStart2[i] = cTimerStart2[i] + cTimerSpeed*dt
 
     if cTimerStart2[i] >= 40/i then
-      badCuki_setPos(lg.getWidth()/i*1.5,0)
+      badCuki_setPos(math.random(lg.getWidth()/i*1.5),0)
       cTimerStart2[i] = 0
     end
   end

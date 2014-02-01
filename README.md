@@ -14,7 +14,6 @@ A ton of cookies were harmed in the making of this game.
 * Enemy collision (bad cukis)
 * Ability for player to shoot bad cukis
 * Game Over 
-* Adjust position of texts
 * background image 
 
 you just do with code what you want to
